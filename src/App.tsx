@@ -6,9 +6,13 @@ import Games from "./pages/Games.tsx";
 import Nav from "./assets/Components/Nav.tsx";
 import SpaceFun from "./pages/SpaceFun.tsx";
 import FoodWars from "./pages/FoodWars.tsx";
+import { useEffect } from "react";
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
+  useEffect(()=>{
+    console.log(locomotiveScroll);
+  })
   return (
     <div className="overflow-hidden">
       <Router>
