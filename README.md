@@ -45,10 +45,10 @@ Image Match Games is a web application that offers engaging memory-matching game
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/image-match-games.git
+https://github.com/shaheer831/Cardo.git
 
 # Navigate to the project directory
-cd image-match-games
+cd Cardo
 
 # Install dependencies
 npm install
